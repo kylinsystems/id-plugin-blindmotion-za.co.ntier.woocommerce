@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><idempiere Name="WooCommerceBLD" Version="1.0.7" idempiereVersion="" DataBaseVersion="" Description="" Author="" AuthorEmail="" CreatedDate="2024-06-26 01:10:40.041" UpdatedDate="2024-06-26 01:46:16.615" PackOutVersion="100" UpdateDictionary="false" Client="0-SYSTEM-System" AD_Client_UU="11237b53-9592-4af1-b3c5-afd216514b5d">
+    <AD_Process type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <AD_Org_ID reference="id">0</AD_Org_ID>
+        <IsActive>Y</IsActive>
+        <Name>Import Product Fields From WooCommerce</Name>
+        <Description/>
+        <Help/>
+        <ProcedureName/>
+        <IsReport>N</IsReport>
+        <Value>Import_Product_Fields_From_WooCommerce</Value>
+        <IsDirectPrint>N</IsDirectPrint>
+        <AD_ReportView_ID reference="id"/>
+        <Classname>za.co.ntier.processes.WooCommerceProductSetup</Classname>
+        <AccessLevel>7</AccessLevel>
+        <EntityType>U</EntityType>
+        <Statistic_Count>175</Statistic_Count>
+        <Statistic_Seconds>175</Statistic_Seconds>
+        <AD_PrintFormat_ID reference="id"/>
+        <WorkflowValue/>
+        <AD_Workflow_ID reference="id"/>
+        <IsBetaFunctionality>N</IsBetaFunctionality>
+        <ShowHelp>Y</ShowHelp>
+        <JasperReport/>
+        <AD_Form_ID reference="id"/>
+        <CopyFromProcess>N</CopyFromProcess>
+        <AD_Process_UU>def2fc86-e0f2-4a54-8594-4ac88c4b2b6c</AD_Process_UU>
+        <AD_CtxHelp_ID reference="id"/>
+        <ExecutionType/>
+        <AllowMultipleExecution>P</AllowMultipleExecution>
+        <AD_Process_Trl type="translation">
+            <Description/>
+            <Help/>
+            <Name>Import Product Fields</Name>
+            <AD_Language>es_CO</AD_Language>
+            <IsActive>Y</IsActive>
+            <IsTranslated>N</IsTranslated>
+        </AD_Process_Trl>
+        <AD_Process_Trl type="translation">
+            <Description/>
+            <Help/>
+            <Name>Import Product Fields</Name>
+            <AD_Language>en_AU</AD_Language>
+            <IsActive>Y</IsActive>
+            <IsTranslated>N</IsTranslated>
+        </AD_Process_Trl>
+    </AD_Process>
+    <AD_ToolBarButton type="table">
+        <AD_Client_ID>0</AD_Client_ID>
+        <AD_Org_ID>0</AD_Org_ID>
+        <AD_Org_ID reference="id">0</AD_Org_ID>
+        <ComponentName>Import Product Fields</ComponentName>
+        <IsActive>Y</IsActive>
+        <Name>Import Product Fields</Name>
+        <IsCustomization>N</IsCustomization>
+        <ActionClassName/>
+        <ActionName/>
+        <KeyStroke_KeyCode/>
+        <KeyStroke_Modifiers/>
+        <AD_ToolBarButton_UU>c8eab1e1-bc6b-4fd8-80ac-2d71fab72e5d</AD_ToolBarButton_UU>
+        <Action>W</Action>
+        <AD_Tab_ID reference="uuid" reference-key="AD_Tab">67176965-23a1-41ec-b8c9-26c5cef0009e</AD_Tab_ID>
+        <AD_Process_ID reference="uuid" reference-key="AD_Process">def2fc86-e0f2-4a54-8594-4ac88c4b2b6c</AD_Process_ID>
+        <DisplayLogic/>
+        <SeqNo>10</SeqNo>
+        <IsAdvancedButton>N</IsAdvancedButton>
+        <IsAddSeparator>N</IsAddSeparator>
+        <EntityType>U</EntityType>
+        <IsShowMore>N</IsShowMore>
+    </AD_ToolBarButton>
+</idempiere>
